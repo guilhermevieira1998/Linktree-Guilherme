@@ -24,6 +24,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #121212;
+    filter: drop-shadow(0px 6px 14px #09aa5f);
 }
 
 .sub-title {
@@ -70,6 +71,10 @@ body {
 
 .linkedin:hover {
     background-color: #0077B5;
+}
+
+.portfolio:hover {
+    background-color: #bb9d17;
 }
 
 @media (max-width: 480px) {
